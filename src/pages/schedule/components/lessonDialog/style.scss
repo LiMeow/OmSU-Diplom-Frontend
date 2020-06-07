@@ -1,0 +1,26 @@
+.lesson-dialog {
+  height: 35%;
+  min-height: 200px;
+  min-width: 480px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.lesson-dialog__header-name {
+  font-size: calc(8px + 2.5vh);
+  margin: 2vh 0;
+}
+
+.lesson-dialog__lesson-info {
+  color: #000;
+  font-size: calc(8px + 2.5vh);
+  line-height: calc(8px + 2.7vh);
+
+  &:nth-child(2) {
+    margin-top: 1vh;
+  }
+
+  &:last-child {
+    margin-top: 2vh;
+  }
+}

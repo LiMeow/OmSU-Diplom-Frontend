@@ -1,0 +1,109 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.dropdown__select-options {
+  border-radius: 5px;
+  font-size: 2.5vh;
+  line-height: 3vh;
+  margin-top: 5px;
+}
+
+.edit-event-menu__drop-down-wrapper .dropdown__select-options {
+  font-size: 2vh;
+  line-height: 2.5vh;
+}
+
+.dropdown__control,
+.dropdown-error__control {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0.3vh 0.2vh 0.1vh rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+  min-height: 16px;
+  position: relative;
+}
+
+.edit-event-menu__drop-down-wrapper .dropdown__control {
+  height: 5vh;
+}
+
+.dropdown__control {
+  border: 2px solid #fff;
+}
+
+.dropdown-error__control {
+  border: 2px solid #b00020;
+  box-shadow: none;
+}
+
+.dropdown__control--menu-is-open {
+  border-color: #087f24;
+  box-shadow: none;
+}
+
+.dropdown__menu,
+.dropdown-error__menu {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 4px 1px #808080;
+  margin-top: 5px;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.dropdown__option,
+.dropdown-error__option {
+  font-size: 2vh;
+  font-weight: 500;
+  line-height: 2.5vh;
+  padding: 8px 0 8px 10px;
+}
+
+.dropdown__option--is-focused,
+.dropdown-error__option--is-focused {
+  background-color: #7fe27f;
+}
+
+.dropdown__option--is-selected,
+.dropdown-error__option--is-selected {
+  background-color: #087f24;
+  color: #fff;
+}
+
+.dropdown__text {
+  color: #000;
+  font-size: 2.5vh;
+  line-height: 3vh;
+  margin: 0;
+}
+
+.edit-event-menu__drop-down-wrapper .dropdown__text {
+  font-size: 2vh;
+  line-height: 2.5vh;
+}
+
+.dropdown_error > .dropdown__text {
+  color: #b00020;
+}
+
+.dropdown__text_active {
+  color: #087f24;
+}
+
+.dropdown__value-container.dropdown__value-container--has-value,
+.dropdown-error__value-container.dropdown-error__value-container--has-value {
+  overflow: hidden;
+  padding-top: 2vh;
+}
+
+.dropdown__value-container .dropdown__placeholder,
+.dropdown-error__value-container .dropdown-error__placeholder {
+  top: 60%;
+}

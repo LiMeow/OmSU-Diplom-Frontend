@@ -1,0 +1,176 @@
+{
+  "layouts": {
+    "nonAuth": {
+      "links": {
+        "login": "Sign In",
+        "register": "Sign Up"
+      }
+    },
+    "base": {
+      "sideBar": {
+        "classrooms": "Classrooms",
+        "schedule": "Schedule",
+        "schedule-editor": "Schedule editor"
+      }
+    }
+  },
+  "pages": {
+    "sign": {
+      "labels": {
+        "lastName": "Last name",
+        "firstName": "First name",
+        "patronymic": "Patronymic",
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "userNameOrPassword": "Invalid email or password",
+        "invalidLastName": "Invalid last name",
+        "invalidFirstName": "Invalid first name",
+        "invalidEmail": "Invalid email",
+        "invalidPassword": "Password must contains 6 symbols and no spaces"
+      },
+      "buttons": {
+        "login": "Login",
+        "registration": "Registration"
+      },
+      "links": {
+        "student": "Student",
+        "lecturer": "Lecturer"
+      }
+    },
+    "classrooms": {
+      "buttons": {
+        "next-page": "Next page",
+        "prev-page": "Previous page"
+      },
+      "messages": {
+        "no-filter": "Set filter for see classrooms",
+        "no-classrooms": "No classrooms for such filter"
+      }
+    },
+    "classroom": {
+      "header": {
+        "number": "Auditory №%{number}",
+        "statuses": {
+          "free": " - Free",
+          "selected": " - Selected",
+          "occupied": " - Occupied"
+        }
+      },
+      "occupation": {
+        "time": "Time",
+        "lecturer": "Lecturer",
+        "group": "Group",
+        "comment": "Commentary",
+        "interval": "Interval",
+        "intervals": {
+          "none": "None",
+          "every_week": "Every",
+          "each_even_week": "Even",
+          "each_odd_week": "Odd"
+        },
+        "require": "this event is required"
+      },
+      "messages": {
+        "unable-update": "Unable to update auditory!\nAll fields should be not empty!"
+      },
+      "edit": {
+        "classroom-number": "Classroom number"
+      }
+    }
+  },
+  "components": {
+    "classroom": {
+      "number": "Auditory №%{number}"
+    },
+    "filter": {
+      "options": {
+        "which-schedule": {
+          "group": "Group",
+          "course": "Course",
+          "lecturer": "Lecturer"
+        },
+        "courses": {
+          "first": "First",
+          "second": "Second",
+          "third": "Third",
+          "fourth": "Fourth",
+          "fifth": "Fifth",
+          "sixth": "Sixth"
+        }
+      },
+      "labels": {
+        "which-schedule": "Schedule type",
+        "department": "Department",
+        "lecturer": "Lecturer",
+        "faculty": "Faculty",
+        "course": "Course",
+        "group": "Group",
+        "year": "Academic year",
+        "semester": "Semester"
+      },
+      "default-select-message": "Select...",
+      "no-options-message": "No options",
+      "patterns": {
+        "year": "Example: \"2020/2021\""
+      }
+    },
+    "schedule": {
+      "no-schedule-message": "There is no schedule for such filter",
+      "no-filter-message": "Set filter to see schedule",
+      "week": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      },
+      "lessons": {
+        "optional": "optional",
+        "even": ", e/w",
+        "odd": ", o/w",
+        "every": " ",
+        "even-full": ", even week",
+        "odd-full": ", odd week",
+        "every-full": " ",
+        "building": "building:",
+        "classroom": "classroom:",
+        "from": "from",
+        "to": "to"
+      }
+    },
+    "date-range-selector": {
+      "start-date": "Start date",
+      "end-date": "End date"
+    },
+    "schedule-editor-options": {
+      "labels": {
+        "faculty": "Select faculty",
+        "course": "Select course",
+        "academic-years": "Enter academic year",
+        "semester": "Select semester"
+      }
+    },
+    "buttons": {
+      "edit": "Edit",
+      "back": "Back",
+      "occupy": "Occupy",
+      "delete": "Delete",
+      "save": "Save",
+      "apply-filter": "Apply",
+      "details": "Details",
+      "cancel": "Cancel",
+      "reschedule": "Reschedule",
+      "apply": "Apply"
+    },
+    "labels": {
+      "building": "Building",
+      "classroom-number": "Classroom number",
+      "date": "Date",
+      "time": "Time"
+    }
+  }
+}

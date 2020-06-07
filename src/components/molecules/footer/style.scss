@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.classrooms-footer,
+.classroom-footer,
+.event-footer,
+.dialog-footer {
+  align-items: flex-end;
+  margin: 1vh auto;
+  width: 96%;
+}

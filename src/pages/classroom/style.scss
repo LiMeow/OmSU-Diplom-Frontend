@@ -1,0 +1,16 @@
+.classroom {
+  display: flex;
+  height: 85%;
+  justify-content: space-around;
+  margin: 2.1vh 0;
+}
+
+.classroom__middle-section {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+}
+
+.classroom__tag-section {
+  width: 28%;
+}

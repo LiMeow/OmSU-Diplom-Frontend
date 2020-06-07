@@ -33,13 +33,13 @@ Follow instructions on the [official page](https://classic.yarnpkg.com/en/docs/i
 #### Install dependencies
 
 ```shell script
-$ yarn
+$ npm install
 ```
 
 #### Run application
 
 ```shell script
-$ yarn start
+$ npm start
 ```
 
 #### Run application with mocks
